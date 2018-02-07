@@ -2,16 +2,16 @@
  
 int main()
 {
-   int first, second, add, subtract, multiply;
+   int first, second, third, fourth, add, subtract, multiply;
    float divide;
 
      printf("Enter three integers\n");
-     scanf("%d%d", &first, &second. &third);
+     scanf("%d%d", &first, &second. &third, &fourth);
  
-   add = first + second;
-   subtract = first - second;
-   multiply = first * second;
-   divide = first / (float)second;
+   add = first + second + third + fourth;
+   subtract = first - second - third - fourth;
+   multiply = first * second * third * fourth;
+   divide = first / (float)second / third / fourth;
  
      printf("Sum = %d\n",add);
      printf("Difference = %d\n", subtract);
